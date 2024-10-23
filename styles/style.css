@@ -1,0 +1,67 @@
+p{
+	color:green;
+	font-family:Times New Roman;	
+}
+body{
+	background:ghostwhite;
+	text-align:left;
+}
+h1{
+	color:blue;
+	font-family:Courier New;
+	font-size: 50px;
+	text-align:center;
+
+}
+
+@media (min-width: 1200px){
+	.coverLetter div{
+		flex-direction: column
+		display: inline-flex;
+		justify-content: space-around;
+	}
+}
+
+.image {
+	order: 2;
+	border: 1px #00A2E8 solid;
+	padding: 10px;
+	margin: 10px;
+
+}
+.info {
+	order: 1;
+	border: 1px #00A2E8 solid;
+	padding: 10px;
+	margin: 10px;
+}
+
+@media (min-width: 480px){
+	.container {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+.container div {
+	border: 1px #00A2E8 solid;
+	padding: 10px;
+	
+}
+
+.education {
+	/*justify-content wasn't working with flex # applied!*/
+	/*flex: 1;*/
+	order: 1;
+}
+
+.experience {
+	/*justify-content wasn't working with flex # applied!*/
+	/*flex: 2;*/
+	order: 2;
+}
+
+.skills {
+	/*justify-content wasn't working with flex # applied!*/
+	/*flex: 1;*/
+	order: 3;
+}
